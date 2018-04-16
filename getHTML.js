@@ -11,8 +11,8 @@ var https = require('https');
 
         // for(var i = 0; i < bufferedData.length; i++) {
           // console.log(bufferedData[i]);
-          printHTML(bufferedData)
         // }
+        printHTML(bufferedData)
       });
   };
 

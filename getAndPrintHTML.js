@@ -5,12 +5,12 @@ function getAndPrintHTML (targetHost, targetPath) {
 
   /* Add your code here */
      targetHost = requestOptions.host
-     targetPath = requestOptions.path 
+     targetPath = requestOptions.path
 }
 
 var requestOptions = {
   host: 'sytantris.github.io',
-    path: '/http-examples/step3.html'
+  path: '/http-examples/step3.html'
 };
 
 var callback = function(response) {
@@ -27,5 +27,5 @@ var callback = function(response) {
 };
 
 
-getAndPrintHTML(requestOptions)
+//getAndPrintHTML(requestOptions)
 https.request(requestOptions, callback).end();
